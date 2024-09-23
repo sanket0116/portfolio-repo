@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  min-height: calc(100vh - (height of header + height of footer)); 
+  overflow-y: auto;
+}

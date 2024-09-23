@@ -1,0 +1,32 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark navbarbg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/assets/logo-no-background.png" alt="LOGO"></a>
+      <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" [ngClass]="{'show': navbarOpen}" id="navbarNav">
+        <ul class="navbar-nav non-selectable">
+          <li class="nav-item mx-1" routerLinkActive="active" (click)="handleLinkClick()">
+            <a [routerLink]="['/home']" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-1" (click)="handleLinkClick()">
+            <a [routerLink]="['/about']" class="nav-link">About</a>
+          </li>
+          <li class="nav-item mx-1" (click)="handleLinkClick()">
+            <a [routerLink]="['/services']" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item mx-1" (click)="handleLinkClick()">
+            <a [routerLink]="['/project']" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item mx-1" (click)="handleLinkClick()">
+            <a [routerLink]="['/skills']" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item mx-1" (click)="handleLinkClick()">
+            <a [routerLink]="['/contact']" class="nav-link">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

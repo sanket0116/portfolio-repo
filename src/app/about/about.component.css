@@ -1,0 +1,63 @@
+.non-selectable{
+  user-select: none;
+}
+
+.container{
+  background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff; 
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ce004f; 
+}
+
+.about-section {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-section p {
+  font-size: 1.0rem;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #ce004f;
+  border-color: #ce004f;
+}
+
+.btn-primary:hover {
+  background-color: #ad003e; 
+  border-color: #ad003e;
+  color: #000000;
+}
+
+.about-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}

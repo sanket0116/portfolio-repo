@@ -1,0 +1,86 @@
+.non-selectable{
+    user-select: none;
+  }
+
+.contact-section {
+    background-color: #212121;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ce004f;
+    border-color: #ce004f;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ad003e;
+    border-color: #ad003e;
+    color: #000000;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact-heading {
+    font-family: "Source Sans Pro", sans-serif;
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+  }
+  
+  @keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem; 
+    }
+
+    .section-text {
+        font-size: 1rem; 
+    }
+
+    .btn-primary {
+        padding: 8px 16px; 
+        font-size: 0.8rem; 
+    }
+}

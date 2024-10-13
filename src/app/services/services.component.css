@@ -1,6 +1,9 @@
 .non-selectable{
   user-select: none;
 }
+p,ul{
+  font-family: 'Raleway', sans-serif;
+}
 .service-card {
     background-color: #363636;
     color: #ffffff;
@@ -20,6 +23,8 @@
     color: #ce004f;
     font-size: 1.5rem;
     transition: color 0.3s ease-in-out; /* Transition color change */
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
   }
   
   .service-card:hover .card-title {
@@ -38,6 +43,7 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+    font-family: 'Signika Negative', sans-serif;
   }
   
   @keyframes reveal {

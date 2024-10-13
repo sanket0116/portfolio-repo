@@ -34,6 +34,11 @@
   transition: color 0.3s ease-in-out;
   margin-left: 1rem;
   position: relative;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Fredericka the Great', cursive; */
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Pacifico', cursive; */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {

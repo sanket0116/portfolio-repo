@@ -31,5 +31,8 @@ export class NavbarComponent {
         behavior: 'smooth' 
       });
     }
+    if (this.navbarOpen) {
+      this.navbarOpen = false;
+    }
   }
 }
